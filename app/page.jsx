@@ -49,11 +49,11 @@ export default function Home() {
             </Link>
           ))
         }
-        {
-          !posts.length > 0 && inputRef.current?.value && (
-            <p className="text-center text-2xl font-bold">No posts found for your query - <b> { inputRef.current?.value } </b> </p>
-          )
-        }
+        { posts.length === 0 && inputRef.current?.value && (
+          <p className="text-center text-2xl font-bold">
+            No posts found for "<b>{ inputRef.current?.value }</b>"
+          </p>
+        ) }
       </div>
     </div>
   );
