@@ -1,4 +1,6 @@
-# **Blog App Basic - Next.js**  
+# **Blog App Basic - Next.js**
+
+# Live URL - https://blog-app-basic-nextjs.vercel.app/
 
 A simple and minimalistic blog application built with **Next.js**, **Tailwind CSS**, and **Next.js Router**. This project demonstrates how to create a blog with dynamic routing, server-side rendering, and modern styling using Tailwind CSS.  
 
